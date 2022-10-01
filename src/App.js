@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <h1>Weather App</h1>
       <Weather />
-      <h2>
+      <footer>
         <a
           href="https://github.com/Tolulopejay/react-weather"
           rel="noreferrer"
@@ -16,8 +16,8 @@ function App() {
         >
           Open-source code
         </a>
-        by Tolulope Johnson.
-      </h2>
+        {"  "} by Tolulope Johnson.
+      </footer>
     </div>
   );
 }
