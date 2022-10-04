@@ -6,9 +6,9 @@ import Weather from "./weather";
 function App() {
   return (
     <div className="App">
-      <h1>Weather App</h1>
-      <Weather />
-      <footer>
+      <div container="App">
+        <h1>Weather App</h1>
+        <Weather />
         <a
           href="https://github.com/Tolulopejay/react-weather"
           rel="noreferrer"
@@ -17,7 +17,7 @@ function App() {
           Open-source code
         </a>
         {"  "} by Tolulope Johnson.
-      </footer>
+      </div>
     </div>
   );
 }

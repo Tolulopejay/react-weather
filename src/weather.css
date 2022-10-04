@@ -1,0 +1,26 @@
+.search {
+  border: 1px solid grey;
+  border-radius: 7px;
+  padding: 19px;
+  margin: 30px;
+  max-width:800px;
+}
+.search h1 {
+  color: #0c0c0c;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 34px;
+  font-weight: 100;
+  line-height: 28.8px;
+  text-align: left;
+  height: 28px;
+  margin-left: 20px;
+}
+.search ul {
+  color: #70757a;
+  list-style: none;
+}
+.form {
+ 
+  margin-bottom: 20px;
+}

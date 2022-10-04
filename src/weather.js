@@ -1,28 +1,95 @@
 import React from "react";
+import "./weather.css";
 
-export default function Search() {
-
+export default function search() {
   return (
-    <form id="city-search-form" >
-      <div class="form-inline">
-        <div>
-          <input
-            id="city-input"
-            type="search"
-            class="form-control"
-            placeholder="Type the city name"
-            autoComplete="off"
-           
-          />
+    <div className="search">
+      <form className="form">
+        <div className="row">
+          <div className="col-9">
+            <input
+              type="search"
+              placeholder="Enter a city..."
+              className="form-control"
+            />
+          </div>
+          <div className="col-2">
+            <input type="submit" Value="search" />
+          </div>
         </div>
-        <div>
-          <input
-            type="submit"
-            value="What's the weather?"
-            class="form-control btn btn-outline-info shadow-sm"
-          ></input>
+      </form>
+      <h1>Nigeria</h1>
+      <ul>
+        <li>Wednesday 07:00</li>
+        <li>Mostly Cloudy</li>
+      </ul>
+
+      <div className="row">
+        <div className="col-6">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-9">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Mostly Cloudy"
+                />
+                1°C
+              </div>
+              <div class="col-3">
+                <ul>
+                  <li>Precipitation</li>
+                  <li>Humidity</li>
+                  <li>Wind</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-2">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Mostly Cloudy"
+                />
+                6°C
+              </div>
+              <div class="col-2">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Mostly Cloudy"
+                />
+                1°C
+              </div>
+              <div class="col-2">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Mostly Cloudy"
+                />
+                3°C
+              </div>
+              <div class="col-2">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Mostly Cloudy"
+                />
+                9°C
+              </div>
+              <div class="col-2">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Mostly Cloudy"
+                />
+                6°C
+              </div>
+              <div class="col-2">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt="Mostly Cloudy"
+                />
+                8°C
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </form>
+    </div>
   );
 }
