@@ -14,11 +14,15 @@ export default function search() {
             />
           </div>
           <div className="col-2">
-            <input type="submit" Value="search" />
+            <input
+              type="submit"
+              Value="search"
+              className="btn btn-primary w-100"
+            />
           </div>
         </div>
       </form>
-      <h1>Nigeria</h1>
+      <h1>New York</h1>
       <ul>
         <li>Wednesday 07:00</li>
         <li>Mostly Cloudy</li>
@@ -33,8 +37,11 @@ export default function search() {
                   src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
                   alt="Mostly Cloudy"
                 />
-                1°C
+
+                <span className="temperature">1</span>
+                <span className="unit">°C</span>
               </div>
+
               <div class="col-3">
                 <ul>
                   <li>Precipitation</li>
@@ -43,7 +50,7 @@ export default function search() {
                 </ul>
               </div>
             </div>
-            <div class="row">
+            <div className="forecast" class="row">
               <div class="col-2">
                 <img
                   src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
